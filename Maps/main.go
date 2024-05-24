@@ -17,13 +17,13 @@ func main() {
 	fmt.Println("G for => ", language["G"])
 	fmt.Println("J for => ", language["J"])
 
-	delete(language, "J")
+	//delete(language, "J")
 	fmt.Println(language)
 
 	//loops in maps
 
 	for key, value := range language {
-		fmt.Printf("for key %v, value is %v\n",key,value)
+		fmt.Printf("for key %v, value is %v\n", key, value)
 	}
-
+	fmt.Println(language)
 }
