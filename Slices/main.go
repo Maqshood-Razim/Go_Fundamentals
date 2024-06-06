@@ -16,9 +16,10 @@ func main() {
 
 	fmt.Println("new append slice is : ", fruitlistnew)
 
-	var cutfruitlistnew = append(fruitlistnew[:2])
 
-	fmt.Println("new slice = ", cutfruitlistnew)
+	newfruit := fruitlistnew[:2]
+
+	fmt.Println("new slice = ",newfruit)
 
 	highscores := make([]int, 3)
 
@@ -40,14 +41,12 @@ func main() {
 
 	// remove value in slice based on index
 
-	courses := []string{"Go", "C", "C++", "Java", "Assembly"}
+	courses := []string{"Go", "C", "C++", "Java", "Assembly", "ruby"}
 
 	var index int = 3
 
 	var coursesdel = append(courses[:index], courses[index+1:]...)
 
 	fmt.Println("result = ", coursesdel)
-
-	
 
 }

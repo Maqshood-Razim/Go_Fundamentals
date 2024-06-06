@@ -18,7 +18,7 @@ func main() {
 
 	fmt.Println("thanks for rating ", input)
 	
-	numrating,err := strconv.ParseFloat(strings.TrimSpace(input),64)
+    numrating,err := strconv.ParseFloat(strings.TrimSpace(input),64)
 
 
 	if err!=nil{

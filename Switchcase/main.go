@@ -9,8 +9,12 @@ import (
 func main() {
 	fmt.Println("Switch case")
 
+	// rand.New(rand.NewSource(time.Now().UnixNano()))
+	// dicenumber := rand.Intn(6 + 1)
+
+
 	rand.New(rand.NewSource(time.Now().UnixNano()))
-	dicenumber := rand.Intn(7)
+	dicenumber := rand.Intn(6+1)
 
 	fmt.Println(dicenumber)
 

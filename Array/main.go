@@ -6,20 +6,18 @@ func main() {
 
 	fmt.Println("Array")
 
-	var fruitarray [5] string
+	var fruitarray [5]string
 
-	fruitarray[0]="apple"
-	fruitarray[1]="dates"
-	fruitarray[3]="mango"
-	fruitarray[4]="watermelon"
+	fruitarray[0] = "apple"
+	fruitarray[1] = "dates"
+	fruitarray[3] = "mango"
+	fruitarray[4] = "watermelon"
 
-	fmt.Println("array is \n",fruitarray)
-	fmt.Println("length is : ",len(fruitarray))
-
+	fmt.Println("array is \n", fruitarray)
+	fmt.Println("length is : ", len(fruitarray))
 
 	//another method of declaring array
-
-	 veg := [3] string {"beans","mushroom","betroot"}
+  veg := [3] string {"potato","beans","carrot"}
 
 	fmt.Println(veg)
 }

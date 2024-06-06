@@ -40,10 +40,10 @@ func main() {
 	var name = "maqshood"
 	fmt.Println(name)
 
-	// no var type or operater
+	// no var type or varless operater
 
 	numberofusers := 19999.9
-	fmt.Println("varles operater => ", +numberofusers)
+	fmt.Println("varles operater => ", numberofusers)
 
 	fmt.Println(Logged)
 
@@ -67,10 +67,9 @@ func main() {
 	fmt.Println(result)
 
 	if 19%2 == 0 {
+
 		fmt.Println("even")
 	} else {
 		fmt.Println("odd")
 	}
-	
-
 }
