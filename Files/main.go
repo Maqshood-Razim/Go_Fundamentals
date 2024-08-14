@@ -21,22 +21,24 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println("length is : ",length)
+	fmt.Println("length is : ", length)
 	defer file.Close()
 
+	var a int = 7
+	var b int = 9
+	var d int
+	fmt.Println("a", a)
+	fmt.Println("b", b)
+	d = a
+	a = b
+	b = d
+
+	fmt.Println("a", a)
+	fmt.Println("b", b)
 
 
-   var a int =7
-   var b int =9
-   var d int
-  fmt.Println("a",a)
-  fmt.Println("b",b)
-  d  =a
-  a =b
-  b = d
+	a,b= b,a
 
-   
-   fmt.Println("a",a)
-   fmt.Println("b",b)
+	fmt.Println("a",a,"b",b)
 
 }
