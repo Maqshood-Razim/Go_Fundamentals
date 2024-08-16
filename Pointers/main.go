@@ -20,4 +20,18 @@ func main() {
 	*ptr = *ptr +2
 
 	fmt.Println("new value",mynumber)
+
+
+
+   x := 7
+
+    p:= &x
+
+	fmt.Println(p)
+	fmt.Println(*p)
+	 
+
+	*p = 21
+
+	fmt.Println(*p,x)
 }
